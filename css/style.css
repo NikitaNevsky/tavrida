@@ -1,0 +1,1347 @@
+@font-face {
+  font-family: 'Halvar Breit Blk';
+  src: url('../fonts/HalvarBreit-BlkSlanted.eot');
+  src: local('Halvar Breitschrift Black Slanted'), local('HalvarBreit-BlkSlanted'),
+      url('../fonts/HalvarBreit-BlkSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-BlkSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-BlkSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-BlkSlanted.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Blk';
+  src: url('../fonts/HalvarBreit-Blk.eot');
+  src: local('Halvar Breitschrift Black'), local('HalvarBreit-Blk'),
+      url('../fonts/HalvarBreit-Blk.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-Blk.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-Blk.woff') format('woff'),
+      url('../fonts/HalvarBreit-Blk.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Blk SuSlanted';
+  src: url('../fonts/HalvarBreit-BlkSuSlanted.eot');
+  src: local('Halvar Breitschrift Black SuperSlanted'), local('HalvarBreit-BlkSuSlanted'),
+      url('../fonts/HalvarBreit-BlkSuSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-BlkSuSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-BlkSuSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-BlkSuSlanted.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Lt';
+  src: url('../fonts/HalvarBreit-Lt.eot');
+  src: local('Halvar Breitschrift Light'), local('HalvarBreit-Lt'),
+      url('../fonts/HalvarBreit-Lt.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-Lt.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-Lt.woff') format('woff'),
+      url('../fonts/HalvarBreit-Lt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Hl SuSlanted';
+  src: url('../fonts/HalvarBreit-HlSuSlanted.eot');
+  src: local('Halvar Breitschrift Hairline SuperSlanted'), local('HalvarBreit-HlSuSlanted'),
+      url('../fonts/HalvarBreit-HlSuSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-HlSuSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-HlSuSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-HlSuSlanted.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Md';
+  src: url('../fonts/HalvarBreit-Md.eot');
+  src: local('Halvar Breitschrift Medium'), local('HalvarBreit-Md'),
+      url('../fonts/HalvarBreit-Md.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-Md.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-Md.woff') format('woff'),
+      url('../fonts/HalvarBreit-Md.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit XTh SuSlanted';
+  src: url('../fonts/HalvarBreit-XThSuSlanted.eot');
+  src: local('Halvar Breitschrift ExtraThin SuperSlanted'), local('HalvarBreit-XThSuSlanted'),
+      url('../fonts/HalvarBreit-XThSuSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-XThSuSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-XThSuSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-XThSuSlanted.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Rg';
+  src: url('../fonts/HalvarBreit-Bd.eot');
+  src: local('Halvar Breitschrift Bold'), local('HalvarBreit-Bd'),
+      url('../fonts/HalvarBreit-Bd.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-Bd.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-Bd.woff') format('woff'),
+      url('../fonts/HalvarBreit-Bd.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Md SuSlanted';
+  src: url('../fonts/HalvarBreit-MdSuSlanted.eot');
+  src: local('Halvar Breitschrift Medium SuperSlanted'), local('HalvarBreit-MdSuSlanted'),
+      url('../fonts/HalvarBreit-MdSuSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-MdSuSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-MdSuSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-MdSuSlanted.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Hl';
+  src: url('../fonts/HalvarBreit-HlSlanted.eot');
+  src: local('Halvar Breitschrift Hairline Slanted'), local('HalvarBreit-HlSlanted'),
+      url('../fonts/HalvarBreit-HlSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-HlSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-HlSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-HlSlanted.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Rg';
+  src: url('../fonts/HalvarBreit-RgSlanted.eot');
+  src: local('Halvar Breitschrift Regular Slanted'), local('HalvarBreit-RgSlanted'),
+      url('../fonts/HalvarBreit-RgSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-RgSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-RgSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-RgSlanted.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit XBd';
+  src: url('../fonts/HalvarBreit-XBd.eot');
+  src: local('Halvar Breitschrift ExtraBold'), local('HalvarBreit-XBd'),
+      url('../fonts/HalvarBreit-XBd.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-XBd.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-XBd.woff') format('woff'),
+      url('../fonts/HalvarBreit-XBd.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit XTh';
+  src: url('../fonts/HalvarBreit-XThSlanted.eot');
+  src: local('Halvar Breitschrift ExtraThin Slanted'), local('HalvarBreit-XThSlanted'),
+      url('../fonts/HalvarBreit-XThSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-XThSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-XThSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-XThSlanted.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Th SuSlanted';
+  src: url('../fonts/HalvarBreit-ThSuSlanted.eot');
+  src: local('Halvar Breitschrift Thin SuperSlanted'), local('HalvarBreit-ThSuSlanted'),
+      url('../fonts/HalvarBreit-ThSuSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-ThSuSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-ThSuSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-ThSuSlanted.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit XBd SuSlanted';
+  src: url('../fonts/HalvarBreit-XBdSuSlanted.eot');
+  src: local('Halvar Breitschrift ExtraBold SuperSlanted'), local('HalvarBreit-XBdSuSlanted'),
+      url('../fonts/HalvarBreit-XBdSuSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-XBdSuSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-XBdSuSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-XBdSuSlanted.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Rg SuSlanted';
+  src: url('../fonts/HalvarBreit-RgSuSlanted.eot');
+  src: local('Halvar Breitschrift Regular SuperSlanted'), local('HalvarBreit-RgSuSlanted'),
+      url('../fonts/HalvarBreit-RgSuSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-RgSuSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-RgSuSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-RgSuSlanted.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit XBd';
+  src: url('../fonts/HalvarBreit-XBdSlanted.eot');
+  src: local('Halvar Breitschrift ExtraBold Slanted'), local('HalvarBreit-XBdSlanted'),
+      url('../fonts/HalvarBreit-XBdSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-XBdSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-XBdSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-XBdSlanted.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Lt SuSlanted';
+  src: url('../fonts/HalvarBreit-LtSuSlanted.eot');
+  src: local('Halvar Breitschrift Light SuperSlanted'), local('HalvarBreit-LtSuSlanted'),
+      url('../fonts/HalvarBreit-LtSuSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-LtSuSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-LtSuSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-LtSuSlanted.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Th';
+  src: url('../fonts/HalvarBreit-Th.eot');
+  src: local('Halvar Breitschrift Thin'), local('HalvarBreit-Th'),
+      url('../fonts/HalvarBreit-Th.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-Th.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-Th.woff') format('woff'),
+      url('../fonts/HalvarBreit-Th.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit XTh';
+  src: url('../fonts/HalvarBreit-XTh.eot');
+  src: local('Halvar Breitschrift ExtraThin'), local('HalvarBreit-XTh'),
+      url('../fonts/HalvarBreit-XTh.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-XTh.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-XTh.woff') format('woff'),
+      url('../fonts/HalvarBreit-XTh.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Rg SuSlanted';
+  src: url('../fonts/HalvarBreit-BdSuSlanted.eot');
+  src: local('Halvar Breitschrift Bold SuperSlanted'), local('HalvarBreit-BdSuSlanted'),
+      url('../fonts/HalvarBreit-BdSuSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-BdSuSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-BdSuSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-BdSuSlanted.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Th';
+  src: url('../fonts/HalvarBreit-ThSlanted.eot');
+  src: local('Halvar Breitschrift Thin Slanted'), local('HalvarBreit-ThSlanted'),
+      url('../fonts/HalvarBreit-ThSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-ThSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-ThSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-ThSlanted.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Lt';
+  src: url('../fonts/HalvarBreit-LtSlanted.eot');
+  src: local('Halvar Breitschrift Light Slanted'), local('HalvarBreit-LtSlanted'),
+      url('../fonts/HalvarBreit-LtSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-LtSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-LtSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-LtSlanted.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Hl';
+  src: url('../fonts/HalvarBreit-Hl.eot');
+  src: local('Halvar Breitschrift Hairline'), local('HalvarBreit-Hl'),
+      url('../fonts/HalvarBreit-Hl.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-Hl.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-Hl.woff') format('woff'),
+      url('../fonts/HalvarBreit-Hl.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Md';
+  src: url('../fonts/HalvarBreit-MdSlanted.eot');
+  src: local('Halvar Breitschrift Medium Slanted'), local('HalvarBreit-MdSlanted'),
+      url('../fonts/HalvarBreit-MdSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-MdSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-MdSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-MdSlanted.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Rg';
+  src: url('../fonts/HalvarBreit-BdSlanted.eot');
+  src: local('Halvar Breitschrift Bold Slanted'), local('HalvarBreit-BdSlanted'),
+      url('../fonts/HalvarBreit-BdSlanted.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-BdSlanted.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-BdSlanted.woff') format('woff'),
+      url('../fonts/HalvarBreit-BdSlanted.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Hl';
+  src: url('../fonts/HalvarBreit-Hl_1.eot');
+  src: local('Halvar Breitschrift Hairline'), local('HalvarBreit-Hl'),
+      url('../fonts/HalvarBreit-Hl_1.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-Hl_1.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-Hl_1.woff') format('woff'),
+      url('../fonts/HalvarBreit-Hl_1.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Halvar Breit Rg';
+  src: url('../fonts/HalvarBreit-Rg.eot');
+  src: local('Halvar Breitschrift Regular'), local('HalvarBreit-Rg'),
+      url('../fonts/HalvarBreit-Rg.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HalvarBreit-Rg.woff2') format('woff2'),
+      url('../fonts/HalvarBreit-Rg.woff') format('woff'),
+      url('../fonts/HalvarBreit-Rg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
+a:active {
+  outline: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+aside {
+  display: block;
+}
+
+nav {
+  display: block;
+}
+
+footer {
+  display: block;
+}
+
+header {
+  display: block;
+}
+
+section {
+  display: block;
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  height: 100%;
+  min-width: 320px;
+  line-height: 150%;
+  font-family: 'Halvar Breit Rg';
+  font-weight: normal;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background: #ffffff;
+  color: #000000;
+  position: relative;
+  overflow-y: auto;
+}
+
+input {
+  font-family: 'Halvar Breit Md';
+  font-weight: 500;
+  font-size: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  font-family: 'Halvar Breit Md';
+  font-weight: 500;
+  font-size: inherit;
+  cursor: pointer;
+  background-color: inherit;
+}
+button:disabled {
+  color: inherit;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+textarea {
+  font-family: 'Halvar Breit Md';
+  font-weight: 500;
+  font-size: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  resize: none;
+  padding: 0px 0px;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+h2 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+h3 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+h4 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+h5 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+input[type=text] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type=email] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type=tel] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type=number] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type=number]::-webkit-outer-spin-button {
+  display: none;
+}
+input[type=number]::-webkit-inner-spin-button {
+  display: none;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.wrapper > main {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+[class*=__container] {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.btn {
+  font-family: 'Halvar Breit Md';
+  font-weight: 500;
+  background: #007E66;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 18px 61px;
+  height: 59px;
+  -webkit-transition: all 0.3s ease 0ms;
+  transition: all 0.3s ease 0ms;
+  text-decoration: none;
+}
+
+.btn img {
+  -webkit-transition: all 0.3s ease 0ms;
+  transition: all 0.3s ease 0ms;
+}
+
+.btn:hover {
+  background: #005d4c;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*------------ Main ----------*/
+
+.header {
+  background: #ffffff;
+}
+
+.header__main {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.header__logo {
+  -webkit-transition: all 0.3s ease 0ms;
+  transition: all 0.3s ease 0ms;
+  margin-right: 140px;
+}
+
+.header__logo:hover {
+  opacity: 0.7;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  column-gap: 290px;
+}
+
+.header__menu a {
+  font-family: 'Halvar Breit Lt';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.header__menu a:before {
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  height: 7px;
+  width: 0%;
+  background: #007E66;
+  transition: all 0.3s ease-in-out;
+}
+
+.header__menu a:hover:before {
+  width: 100%;
+}
+
+.offer {
+  background: url('../img/icons/triangle.svg') no-repeat top right;
+  padding-bottom: 50px;
+}
+
+.offer__title {
+  font-family: 'Halvar Breit XBd';
+  font-weight: 800;
+  font-size: 280px;
+  line-height: 200px;
+  color: #007E66;
+  -webkit-text-stroke: 5px #ffffff;
+}
+
+.offer__subtitle {
+  font-family: 'Halvar Breit XBd';
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 1;
+  color: #000000;
+}
+
+.offer__text {
+  font-family: 'Halvar Breit XTh';
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 34px;
+  color: #000000;
+  max-width: 1034px;
+  margin-top: 25px;
+}
+
+.offer__action {
+  margin-top: 40px;
+  display: flex;
+}
+
+.offer__action span {
+  font-family: 'Halvar Breit XTh SuSlanted';
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  letter-spacing: 2px;
+}
+
+.offer__action a {
+  display: flex;
+  align-items: center;
+  margin-left: 29px;
+}
+
+.title {
+  font-family: 'Halvar Breit XBd';
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 116px;
+  color: #000000;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.title:before {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 10px;
+  background: #FDD100;
+  bottom: 0px;
+  left: 0;
+}
+
+.about {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  background: url('../img/icons/square.svg') no-repeat top 320px left;
+}
+
+.about__title {
+  position: relative;
+  width: 100%;
+}
+
+.about__title::after {
+  content: 'О нас';
+  position: absolute;
+  font-family: 'Halvar Breit XBd';
+  font-weight: 800;
+  display: block;
+  font-size: 280px;
+  line-height: 200px;
+  color: rgba(253, 209, 0, 0.06);
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.about__subtitle {
+  font-family: 'Halvar Breit Md';
+  font-weight: 500;
+  color: #000000;
+  max-width: 1057px;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+.about__subtitle span {
+  font-family: 'Halvar Breit XBd';
+  font-weight: 800;
+  color: #007E66;
+}
+
+.about__text {
+  font-family: 'Halvar Breit XTh';
+  font-weight: 100;
+  color: #000000;
+  font-size: 30px;
+  line-height: 35px;
+  padding-left: 155px;
+  margin-top: 54px;
+  margin-bottom: 100px;
+}
+
+.about__list--title {
+  font-family: 'Halvar Breit Md';
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 46px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.about__list--info {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 52px;
+}
+
+.about__list--item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  background: #ffffff;
+  padding: 25px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+  position: relative;
+  width: 100%;
+  max-width: 428px;
+}
+
+.about__list--item::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 4px;
+  right: -4px;
+  background: #FDD100;
+  z-index: -1;
+}
+
+.about__list--text {
+  font-family: 'Halvar Breit Md';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.about__list--item ul {
+  padding-left: 0;
+}
+
+.about__list--item ul li {
+  font-size: 20px;
+  line-height: 23px;
+  font-family: 'Halvar Breit Lt';
+  font-weight: 300;
+}
+
+.services {
+  padding-top: 95px;
+  padding-bottom: 80px;
+}
+
+.services__title {
+  position: relative;
+  width: 100%;
+}
+
+.services__title::after {
+  content: 'Услуги';
+  position: absolute;
+  font-family: 'Halvar Breit XBd';
+  font-weight: 800;
+  display: block;
+  font-size: 280px;
+  line-height: 200px;
+  color: rgba(253, 209, 0, 0.06);
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.services__subtitle {
+  font-family: 'Halvar Breit XTh SuSlanted';
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  letter-spacing: 2px;
+  margin-top: 90px;
+  margin-bottom: 56px;
+}
+
+.services__slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__slider--item {
+  width: 100%;
+  max-width: 428px;
+  height: 332px;
+  position: relative;
+}
+
+.services__slider--item::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 4px;
+  right: -4px;
+  background: #FDD100;
+  z-index: -1;
+}
+
+.services__slider--image {
+  width: 100%;
+  height: 100%;
+}
+
+.services__slider--image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.services__slider--title {
+  font-family: 'Halvar Breit Md';
+  font-weight: 500;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  padding: 10px 20px;
+  background: #007E66;
+  max-width: 362px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.services__slider--button {
+  font-family: 'Halvar Breit Md';
+  font-weight: 500;
+  position: absolute;
+  right: 49px;
+  bottom: 25px;
+  display: flex;
+  align-items: center;
+  padding: 18px 43px 18px 10px;
+  background: #FDD100;
+  color: #000000;
+  font-size: 20px;
+  line-height: 23px;
+  transition: all 0.3s ease;
+}
+
+.services__slider--button img {
+  position: absolute;
+  right: -25px;
+  transition: all 0.3s ease;
+  width: 53px!important;
+  height: 23px!important;
+}
+
+.services__slider--button:hover {
+  color: #000000;
+}
+
+.services__slider--button:hover img {
+  right: -30px;
+}
+
+.contacts {
+  padding-top: 80px;
+  padding-bottom: 116px;
+}
+
+.contacts__title {
+  position: relative;
+  width: 100%;
+}
+
+.contacts__title::after {
+  content: 'Контакты';
+  position: absolute;
+  font-family: 'Halvar Breit XBd';
+  font-weight: 800;
+  display: block;
+  font-size: 280px;
+  line-height: 200px;
+  color: rgba(253, 209, 0, 0.06);
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.contacts__subtitle {
+  font-family: 'Halvar Breit XTh SuSlanted';
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  letter-spacing: 2px;
+  margin-top: 90px;
+  margin-bottom: 56px;
+}
+
+.contacts__info {
+  display: flex;
+  column-gap: 115px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 100%;
+  max-width: 545px;
+}
+
+.form__input {
+  position: relative;
+}
+
+.form__input input {
+  position: relative;
+  width: 100%;
+  height: 62px;
+  background: #ffffff;
+  padding: 18px 24px;
+  font-family: 'Halvar Breit Md';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.form__input::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 4px;
+  right: -4px;
+  background: #FDD100;
+  z-index: -1;
+}
+
+.form__input::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -4px;
+  left: -4px;
+  background: #007E66;
+  z-index: -1;
+}
+
+.form__textarea {
+  position: relative;
+  height: max-content;
+}
+
+.form__textarea textarea {
+  position: relative;
+  width: 100%;
+  height: 130px;
+  background: #ffffff;
+  padding: 18px 24px;
+  font-family: 'Halvar Breit Md';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.form__textarea textarea:focus {
+  outline: none;
+}
+
+.form__textarea::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 7px);
+  top: 4px;
+  right: -4px;
+  background: #FDD100;
+  z-index: -1;
+}
+
+.form__textarea::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 5px);
+  top: -4px;
+  left: -4px;
+  background: #007E66;
+  z-index: -1;
+}
+
+.form .btn {
+  max-width: 249px;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.form__text {
+  font-family: 'Halvar Breit Lt';
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.form__text a {
+  color: #007E66;
+  text-decoration: underline;
+}
+
+.form__text a:hover {
+  text-decoration: none;
+}
+
+.input-file {
+	position: relative;
+	display: inline-block;
+}
+
+.input-file span {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 20px;
+  line-height: 23px;
+	vertical-align: middle;
+	color: #000000;
+	text-align: center;
+	background-color: #FDD100;
+	height: 59px;
+	padding: 18px 10px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+}
+
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+
+.input-file:hover span {
+	background-color: #FDD100;
+}
+
+.input-file:active span {
+	background-color: #FDD100;
+}
+
+.contacts__info--links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.contacts__info--links a {
+  font-family: 'Halvar Breit Md';
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 53px;
+  color: #007E66;
+}
+
+.footer {
+  padding: 50px 0 40px;
+  background: #3C625E;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.footer__left {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer__logo {
+  margin-right: 25px;
+  transition: all 0.3s ease;
+}
+
+.footer__logo:hover {
+  opacity: 0.7;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.footer__contacts a {
+  font-family: 'Halvar Breit Md';
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.footer__menu {
+  display: flex;
+  align-items: center;
+  column-gap: 75px;
+  margin-top: -30px;
+}
+
+.footer__menu a {
+  font-family: 'Halvar Breit Lt';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.footer__menu a:hover {
+  opacity: 0.7;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copyright {
+  font-family: 'Halvar Breit Lt';
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+.footer__politics {
+  font-family: 'Halvar Breit Lt';
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.footer__politics:hover {
+  color: #FFFFFF;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  column-gap: 46px;
+  margin-bottom: 65px;
+}
+
+.footer__social--item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 281px;
+  padding-top: 20px;
+  border-top: 2px solid #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+.footer__social--item:hover {
+  opacity: 0.7;
+}
+
+.footer__social--info {
+  font-family: 'Halvar Breit Lt';
+  font-weight: 300;
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.footer__social--info span {
+  display: block;
+  font-family: 'Halvar Breit XBd';
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 6px;
+}
+
+.owl-nav {
+  display: flex!important;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 20px;
+  position: absolute;
+  top: -80px;
+  right: 0;
+}
+
+.owl-nav span {
+  display: none;
+}
+
+.owl-nav button {
+  position: relative;
+  width: 76px;
+  height: 36px;
+  transition: all 0.3s ease;
+}
+
+.owl-nav button:hover {
+  opacity: 0.7;
+}
+
+.owl-nav button.owl-prev:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../img/icons/left.svg') no-repeat;
+}
+
+.owl-nav button.owl-next:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../img/icons/right.svg') no-repeat;
+}
