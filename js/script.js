@@ -10,22 +10,8 @@ $(document).ready(function() {
        return false;
     });
 
-    $(".icon-menu").click(function() {
-      $(".menu__list").addClass('show');
-      $(".icon-menu").addClass('d-none');
-      $(".icon-close").addClass('show');
-    });
-
-    $(".icon-close").click(function() {
-      $(".menu__list").removeClass('show');
-      $(".icon-menu").removeClass('d-none');
-      $(".icon-close").removeClass('show');
-    });
-
-    $(".menu__close").click(function() {
-      $(".menu__list").removeClass('show');
-      $(".icon-menu").removeClass('d-none');
-      $(".icon-close").removeClass('show');
+    $(".burger").click(function() {
+      $(".header__menu").toggleClass('show');
     });
 
     $('.services__slider').owlCarousel({
