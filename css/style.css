@@ -1628,3 +1628,410 @@ input[type=number]::-webkit-inner-spin-button {
   padding-left: 0;
   margin: 0;
 }
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  [class*=__container] {
+    padding: 0 20px;
+  }
+
+  .header__main {
+    padding: 15px 0;
+  }
+
+  .header__logo img {
+    height: 60px;
+  }
+
+  .header__menu {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    row-gap: 20px;
+    background: #FFFFFF;
+    padding: 30px;
+  }
+
+  .header__menu.show {
+    display: flex;
+  }
+
+  .header__menu a {
+    font-size: 18px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .header__main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .offer__title {
+    font-size: 66px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 2px #ffffff;
+  }
+
+  .offer__subtitle {
+    font-size: 30px;
+  }
+
+  .offer__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .offer__action span {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .offer {
+    padding-top: 60px;
+  }
+
+  .title {
+    font-size: 30px;
+    line-height: 56px;
+    margin-bottom: 25px;
+  }
+
+  .title:before {
+    width: 26px;
+    height: 5px;
+  }
+
+  .about__title::after {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .about__subtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .about__text {
+    padding-left: 0;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about {
+    background-size: 30% 30%;
+  }
+
+  .about__list--title {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+
+  .about__list--info {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .about__list--item {
+    padding: 15px;
+    row-gap: 15px;
+  }
+
+  .about__list--text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .about__list--item ul li {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .services__title::after {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .services {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  .services__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+
+  .owl-nav {
+    top: -60px;
+  }
+
+  .services__slider--title {
+    font-size: 18px;
+  }
+
+  .services__slider--button {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 43px 12px 10px;
+  }
+
+  .contacts {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  .contacts__title::after {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .contacts__subtitle {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+  .form {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contacts__info {
+    flex-direction: column;
+  }
+
+  .form__input input {
+    font-size: 16px;
+    line-height: 20px;
+    height: 54px;
+  }
+
+  .input-file span {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 10px;
+    height: auto;
+  }
+
+  .form .btn {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 20px;
+    height: auto;
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .form__text {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  .contacts__info--links a {
+    font-size: 26px;
+    line-height: 33px;
+  }
+
+  .contacts__info--links {
+    margin-top: 20px;
+    row-gap: 15px;
+  }
+
+  .footer__top {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .footer__logo img {
+    height: 60px;
+  }
+
+  .footer__menu {
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 0;
+  }
+
+  .footer__contacts a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer__menu a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer__social {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .footer__social--item {
+    max-width: 100%;
+  }
+
+  .footer__social--info span {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .footer__copyright {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .content__image {
+    height: 200px;
+  }
+
+  .content__title {
+    margin-top: 50px;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 25px;
+  }
+
+  .content__title:before {
+    width: 30px;
+    height: 5px;
+  }
+
+  .purpose {
+    margin-bottom: 40px;
+  }
+
+  .purpose__info {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .purpose__label {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .purpose__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .content__info {
+    row-gap: 15px;
+    padding: 15px;
+  }
+
+  .content__info--title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .content__info--text p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .content__subtext {
+    padding-left: 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .subcontent {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-size: 30% 30%;
+  }
+
+  .content__action {
+    margin-top: 30px;
+  }
+  
+  .btn-outline {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 14px 20px;
+  }
+
+  .info__text p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .info::before {
+    background-size: 30% 30%;
+  }
+
+  .info {
+    background-size: 30% 30%;
+  }
+
+  .content__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .content__info--text ul li {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .content-dev {
+    background-size: 30% 30%;
+    background-position: top left -30px;
+  }
+
+  .content__list {
+    padding-left: 0;
+  }
+
+  .content__item {
+    padding: 10px 0 10px 20px;
+    column-gap: 20px;
+  }
+
+  .number {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .content__item--info {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .content-doc__text {
+    padding-left: 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .content-doc {
+    background-size: 50% 50%; 
+    background-position: top 100px left;
+  }
+
+}
